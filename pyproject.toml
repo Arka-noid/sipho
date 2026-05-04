@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "photonics-env"
+version = "0.1.0"
+description = "Simple photonic design"
+authors = [
+  { name = "Manuel Reza", email = "ma.reza29@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+  "meow",
+]
+
+[dependency-groups]
+dev = [
+  "ipykernel",
+  "ipython",
+  "matplotlib", 
+]
+
+[tool.setuptools]
+packages = []
+
+[tool.uv]
+default-groups = ["dev"]
