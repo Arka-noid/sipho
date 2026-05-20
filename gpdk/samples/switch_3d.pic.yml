@@ -1,0 +1,38 @@
+instances:
+  pads_bottom:
+    component: array
+    settings:
+      component: pad
+      columns: 6
+      column_pitch: 120
+      row_pitch: 0
+  pads_top:
+    component: array
+    settings:
+      component: pad
+      columns: 6
+      column_pitch: 120
+      row_pitch: 0
+placements:
+  pads_bottom:
+    x: 0
+    y: 0
+  pads_top:
+    x: 0
+    y: 800
+routes:
+  heater_bundle:
+    links:
+      pads_bottom,e2_1_1: pads_top,e4_1_1
+      pads_bottom,e2_1_2: pads_top,e4_1_2
+      pads_bottom,e2_1_3: pads_top,e4_1_3
+      pads_bottom,e2_1_4: pads_top,e4_1_4
+      pads_bottom,e2_1_5: pads_top,e4_1_5
+      pads_bottom,e2_1_6: pads_top,e4_1_6
+    routing_strategy: route_bundle_3d
+    settings:
+      grid_unit: 10.0
+      clearance: 5.0
+nets: []
+ports: {}
+name: switch_3d

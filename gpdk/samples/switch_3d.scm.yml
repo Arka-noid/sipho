@@ -1,0 +1,56 @@
+exploded: ''
+camera_transform:
+  translation:
+    x: 300.0
+    y: -400.0
+    z: 0.0
+  rotation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  scale:
+    x: 1.0
+    y: 1.0
+    z: 1.0
+transforms:
+  pads_bottom:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  pads_top:
+    translation:
+      x: 0.0
+      y: 800.0
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+sizes:
+  pads_bottom:
+    width: 600
+    height: 80
+  pads_top:
+    width: 600
+    height: 80
+link_paths: []
+layers:
+  pads_bottom: 0
+  pads_top: 0
+fan_point_positions: {}
