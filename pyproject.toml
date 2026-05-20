@@ -19,7 +19,7 @@ dependencies = [
   "pytz",
   "doroutes~=0.6.0",
   "gsim>=0.0.16",
-  "meow>=0.4.2",
+  "meow-sim>=0.15.0",
 ]
 description = "Sample Photonics PDK"
 keywords = ["python"]
